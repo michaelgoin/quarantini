@@ -1,0 +1,22 @@
+{
+  "name": "quarantini-examples",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "categorized-quarantine": "tap ./example-tests/categorized.test.js --test-env=QUARANTINI=1 --no-coverage",
+    "categorized-non-quarantine": "tap ./example-tests/categorized.test.js --no-coverage",
+    "categorized-tests": "npm run categorized-quarantine && npm run categorized-non-quarantine",
+    "mixed-nesting-quarantine": "tap ./example-tests/mixed-nesting.test.js --test-env=QUARANTINI=1 --no-coverage",
+    "mixed-nesting-non-quarantine": "tap ./example-tests/mixed-nesting.test.js --no-coverage",
+    "mixed-nestng-tests": "npm run mixed-nesting-quarantine && npm run mixed-nesting-non-quarantine",
+    "top-level-quarantine": "tap ./example-tests/top-level.test.js --test-env=QUARANTINI=1 --no-coverage",
+    "top-level-non-quarantine": "tap ./example-tests/top-level.test.js --no-coverage",
+    "top-level-tests": "npm run top-level-quarantine && npm run top-level-non-quarantine",
+    "test": "npm run categorized-tests && npm run mixed-nestng-tests && npm run top-level-tests"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "quarantini",
+  "version": "0.1.0",
+  "description": "A library to add test quarantine functionality to tap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./tests/*.test.js --no-coverage",
+    "update-changelog-version": "node ./scripts/update-changelog-version",
+    "version": "npm run update-changelog-version && git add ./CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelgoin/quarantini.git"
+  },
+  "author": "Michael Goin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelgoin/quarantini/issues"
+  },
+  "homepage": "https://github.com/michaelgoin/quarantini#readme",
+  "files": [
+    "index.js",
+    "src/*.js"
+  ],
+  "dependencies": {
+    "moment": "^2.25.1"
+  },
+  "devDependencies": {
+    "tap": "^14.10.7"
+  }
+}
