@@ -13,7 +13,8 @@ fs.readFile('CHANGELOG.md', 'utf8', function (err, data) {
   }
 
   const todayFormatted = moment().format('YYYY-MM-DD')
-  const newChangelogHeader = `## [v${packageInfo.version}] (${todayFormatted})`
+  const version = `v${packageInfo.version}`
+  const newChangelogHeader = `## [${version}](../../tree/${version}) (${todayFormatted})`
 
   console.log('Updating vNext header to: ', newChangelogHeader)
 
