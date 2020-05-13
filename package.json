@@ -1,7 +1,7 @@
 {
   "name": "quarantini",
   "version": "0.1.1-alpha.0",
-  "description": "A library to add test quarantine functionality to tap.",
+  "description": "A library to add test quarantine functionality.",
   "main": "index.js",
   "scripts": {
     "test": "tap ./tests/*.test.js --no-coverage",
