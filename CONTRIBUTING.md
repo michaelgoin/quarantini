@@ -20,7 +20,7 @@ Even better, follow-up with a PR to resolve the issue. :)
 
 ### Features
 
-Please clearly define the use-case and expected behavior. Given the nature of this project, code examples will likely be extremely helpful. If a feature is considered potentially too specific to a specific person or company, reasonable aggregation of :+1: on the issue may be necessary before it moves forward.
+Please clearly define the use case and expected behavior. Given the nature of this project, code examples will likely be extremely helpful. If a feature is considered potentially too specific to a specific person or company, reasonable aggregation of :+1: on the issue may be necessary before it moves forward.
 
 Similar to bugs, follow-up PR's are extremely welcome. You may want to confirm interest/have a discussion via issue first to avoid wasting effort.
 
