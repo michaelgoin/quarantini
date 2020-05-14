@@ -37,16 +37,30 @@ tap.test('My normal tests', (t) => {
 tap.test('My quarantined tests', (t) => {
   extendTapTest(t, { expirationInDays: NEVER_EXPIRE })
 
+  let setVal = null
+
+  t.beforeEach((done) => {
+    setVal = true
+    done()
+  })
+
+  t.afterEach((done) => {
+    setVal = null
+    done()
+  })
+
   t.autoend()
 
   t.quarantine('20200503', 'Assert 1=1', (t) => {
     t.equal(1, 1)
+    t.ok(setVal)
     t.end()
   })
 
   t.quarantine('20200503', 'Assert 2=2', async t => {
     const value = await somethingAsync()
     t.equal(value, 2)
+    t.ok(setVal)
 
     async function somethingAsync() {
       return 2
