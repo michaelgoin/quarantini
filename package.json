@@ -1,6 +1,6 @@
 {
   "name": "quarantini",
-  "version": "0.1.1-alpha.0",
+  "version": "1.0.0",
   "description": "Adds test quarantine functionality to isolate non-deterministic tests.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/michaelgoin/quarantini.git"
   },
-  "keywords": ["quarantine", "test", "testing", "tap"],
+  "keywords": [
+    "quarantine",
+    "test",
+    "testing",
+    "tap"
+  ],
   "author": "Michael Goin",
   "license": "MIT",
   "bugs": {

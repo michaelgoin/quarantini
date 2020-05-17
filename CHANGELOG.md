@@ -1,4 +1,4 @@
-## [vNext] (TBD)
+## [v1.0.0](../../tree/v1.0.0) (2020-05-16)
 
 * Initial full release including support for extending the `tap` test framework with quarantine functionality.
   * Ability to flag tests as quarantined.
