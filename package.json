@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/michaelgoin/quarantini.git"
   },
+  "keywords": ["quarantine", "test", "testing", "tap"],
   "author": "Michael Goin",
   "license": "MIT",
   "bugs": {
