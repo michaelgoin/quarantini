@@ -2,7 +2,7 @@
 
 Thank you for contributing to the project.
 
-This is a new project starting with reasonably light guidelines. Feel free to submit a pull request with any suggestions or changes to consider for this document.
+This is a new project, starting with reasonably light guidelines. Feel free to submit a pull request with any suggestions or changes to consider for this document.
 
 ## Code of Conduct
 
